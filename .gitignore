@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Data and models (can be large)
+data/*
+!data/.gitkeep
+*.mp4
+*.avi
+*.pt
+*.db
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

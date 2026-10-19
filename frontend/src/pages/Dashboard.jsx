@@ -1,5 +1,5 @@
-import KpiCard from '../components/kpicard'
-import Card from '../components/card'
+import KpiCard from '../components/KpiCard'
+import Card from '../components/Card'
 import SalesFootfallChart from '../components/SalesFootfallChart'
 import HourlyFootfallChart from '../components/HourlyFootfallChart'
 import InventoryAlerts from '../components/InventoryAlerts'
